@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fallingsea",
+  "version": "1.22",
+  "name": "Falling Sea",
+  "description": "Gradually dries oceans and individual lakes in SEA_LEVEL or DROUGHT mode",
+  "authors": [
+    "TueftelTyp"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TueftelTyp/MC-Fabric-FallingSea",
+    "issues": "https://github.com/TueftelTyp/MC-Fabric-FallingSea/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.fallingsea.FallingSea"
+    ],
+    "modmenu": [
+      "de.fallingsea.client.FallingSeaModMenu"
+    ],
+    "client": [
+      "de.fallingsea.client.FallingSeaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+	"modmenu": "*"
+  },
+  "icon": "assets/fallingsea/icon.png"
+}
